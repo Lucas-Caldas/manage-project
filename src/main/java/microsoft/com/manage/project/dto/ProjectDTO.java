@@ -15,7 +15,7 @@ public class ProjectDTO {
 
     private String description;
 
-    private StatusProject status;
+    private String status;
 
     private CustomerDTO customer;
 }
