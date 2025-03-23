@@ -18,7 +18,7 @@ Este projeto foi desenvolvido como parte do **Desafio Técnico para Desenvolvedo
 ## 📂 Funcionalidades Implementadas
 ✅ **CRUD 'Customers'**
 ✅ **CRUD 'Tasks'**
-✅ **Relacionamento Cliente ↔ Projeto ↔ Atividade**  
+✅ **Relacionamento customer ↔ Projeto ↔ Atividade**  
 ✅ **Listagem de projetos em aberto**  
 ✅ **Autenticação JWT**  
 ✅ **Testes unitários**  
@@ -40,4 +40,43 @@ mvn verify
 ### **1️⃣ Clonar o Repositório**
 ```sh
 git clone https://github.com/Lucas-Caldas/manage-project.git
+```
+### **🏗️ Modelo de Dados**
+**📌 Diagrama de Classes**
+```sh
++----------------+       +----------------+       +----------------+
+|    customer     |       |    Project     |       |   Task    |
++----------------+       +----------------+       +----------------+
+| - id: Long     |       | - id: Long     |       | - id: Long     |
+| - name: String |       | - name: String |       | - name: String |
+| - email: String |       | - description:   |       | - description:   |
+| - telephone:    |       |   String       |       |   String       |
+|   String       |       | - status:      |       | - status:      |
++----------------+       |   String       |       |   String       |
+                         | - customer:     |       | - project:     |
+                         |   Customer      |       |   Project      |
+                         +----------------+       +----------------+
+                             |                         |
+                             |                         |
+                             | 1                       | 1
+                             | *                       | *
+                             |                         |
+                         +----------------+       +----------------+
+                         |  1 Customer     |<---->|  * Projects    |
+                         +----------------+       +----------------+
+                             |                         |
+                             |                         |
+                             | 1                       | *
+                             | *                       | *
+                             |                         |
+                         +----------------+       +----------------+
+                         |  1 Project     |<---->|  * Task  |
+                         +----------------+       +----------------+
 
+```
+### 📌 Autor
+**Desenvolvido por Lucas Caldas de Oliva Rodrigues**
+
+📧 caldas.oliva@gmail.com
+
+🔗 [Linkedin]: (https://www.linkedin.com/in/lucas-caldas-69869094/)
