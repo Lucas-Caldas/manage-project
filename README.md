@@ -49,12 +49,12 @@ git clone https://github.com/Lucas-Caldas/manage-project.git
 +----------------+       +----------------+       +----------------+
 | - id: Long     |       | - id: Long     |       | - id: Long     |
 | - name: String |       | - name: String |       | - name: String |
-| - email: String |       | - description:   |       | - description:   |
-| - telephone:    |       |   String       |       |   String       |
+| - email: String|       | - description: |       | - description: |
+| - telephone:   |       |   String       |       |   String       |
 |   String       |       | - status:      |       | - status:      |
 +----------------+       |   String       |       |   String       |
-                         | - customer:     |       | - project:     |
-                         |   Customer      |       |   Project      |
+                         | - customer:    |       | - project:     |
+                         |   Customer     |       |   Project      |
                          +----------------+       +----------------+
                              |                         |
                              |                         |
