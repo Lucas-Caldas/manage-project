@@ -1,6 +1,6 @@
 # 📌 Plataforma de Gestão de Projetos - Microsoft
 
-Este projeto foi desenvolvido como parte do **Desafio Técnico para Desenvolvedores** da Microsoft. O objetivo é criar uma plataforma moderna de **gestão de projetos** e **acompanhamento de times** utilizando **Java + Spring Boot** no backend e **Vue.js** no frontend.
+Este projeto foi desenvolvido como parte do **Desafio Técnico para Desenvolvedores**. O objetivo é criar uma plataforma moderna de **gestão de projetos** e **acompanhamento de times** utilizando **Java + Spring Boot** no backend.
 
 ## 🚀 Tecnologias Utilizadas
 
