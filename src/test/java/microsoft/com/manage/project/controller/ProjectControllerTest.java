@@ -47,4 +47,6 @@ public class ProjectControllerTest {
                 .andExpect(jsonPath("$[0].name").value("Projeto 1")) // Verifica o nome do projeto
                 .andExpect(jsonPath("$[0].status").value("OPEN")); // Verifica o status
     }
+
+
 }
