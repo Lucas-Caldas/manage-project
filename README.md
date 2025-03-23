@@ -10,11 +10,14 @@ Este projeto foi desenvolvido como parte do **Desafio Técnico para Desenvolvedo
 - **Hibernate** (ORM para PostgreSQL)
 - **JUnit 5 + Mockito** (Testes unitários)
 - **Swagger** (Documentação da API)
+- **Jakarta Validation** (Bean Validation)
 
 ### **Banco de Dados**
 - **PostgreSQL**
 
 ## 📂 Funcionalidades Implementadas
+✅ **CRUD 'Customers'**
+✅ **CRUD 'Tasks'**
 ✅ **Relacionamento Cliente ↔ Projeto ↔ Atividade**  
 ✅ **Listagem de projetos em aberto**  
 ✅ **Autenticação JWT**  
