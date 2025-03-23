@@ -45,7 +45,7 @@ git clone https://github.com/Lucas-Caldas/manage-project.git
 **📌 Diagrama de Classes**
 ```sh
 +----------------+       +----------------+       +----------------+
-|    customer     |       |    Project     |       |   Task    |
+|    customer    |       |    Project     |       |      Task      |
 +----------------+       +----------------+       +----------------+
 | - id: Long     |       | - id: Long     |       | - id: Long     |
 | - name: String |       | - name: String |       | - name: String |
